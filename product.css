@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.product {
+    margin: 15px 0;
+}
+
+.image-container img {
+    display: block;
+    margin: 0 auto;
+    border: solid 1px #AF9483;
+}
+
+.image-container img:hover {
+    opacity: 0.8;
+}
+
+.link {
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    color: black;
+    align-items: center;
+    left: 50%;
+}
+
+.link span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+}
+
+.link:hover {
+    color: brown;
+    text-decoration: none;
+}
